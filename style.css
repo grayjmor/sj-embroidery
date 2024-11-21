@@ -1,0 +1,53 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Meie Script', cursive;
+  font-weight: 400;
+  font-style: normal;
+  background-image: url(wallpaper.jpg); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #89A8B2;
+}
+
+hr {
+    margin: 20px auto;
+    color: #89A8B2;
+    border: 1.5px solid #89A8B2;
+    max-width: 160px;
+    opacity: 1;  
+}
+
+.buffer {
+  height: 3rem;
+}
+
+.btn {
+  font-weight: 800;
+  border-radius: 300px;
+ }
+
+.btn-primary {
+  background-color: #89A8B2;
+  border-color: #89A8B2;
+  font-size: 1.5rem;
+}
+
+.btn-primary:hover {
+  background-color: #f1f9f5;
+  border-color: #89A8B2;
+  border-width: 2px;
+  color: #89A8B2;
+}
+
+.btn-xl {
+    padding: 1rem 2rem;
+}
+
